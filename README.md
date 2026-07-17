@@ -16,22 +16,22 @@
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/chapter1.svg"/>
-  <img src="assets/chapter1.svg" alt="Chapter I // Hello World" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/chapter1_v2.svg"/>
+  <img src="assets/chapter1_v2.svg" alt="Chapter I // Hello World" width="100%"/>
 </picture>
 
 <br/><br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/chapter2.svg"/>
-  <img src="assets/chapter2.svg" alt="Chapter II // Work Experience &amp; Academics" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/chapter2_v2.svg"/>
+  <img src="assets/chapter2_v2.svg" alt="Chapter II // Work Experience &amp; Academics" width="100%"/>
 </picture>
 
 <br/><br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/chapter3.svg"/>
-  <img src="assets/chapter3.svg" alt="Chapter III // Constellation &amp; Tech Stack" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/chapter3_v2.svg"/>
+  <img src="assets/chapter3_v2.svg" alt="Chapter III // Constellation &amp; Tech Stack" width="100%"/>
 </picture>
 
 <br/><br/>
