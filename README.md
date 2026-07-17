@@ -15,10 +15,20 @@
 
 ---
 
-### **Chapter I // Hello World**
-
-I specialize in orchestrating *scalable cloud infrastructures* and highly available fintech payment systems. My focus is on automating continuous delivery, enhancing runtime observability, and securing enterprise cloud deployments.
-
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="left">CHAPTER I // HELLO WORLD</th>
+      <th align="right">INDEX // Nº 01</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <br/>
+        I specialize in orchestrating <i>scalable cloud infrastructures</i> and highly available fintech payment systems. My focus is on automating continuous delivery, enhancing runtime observability, and securing enterprise cloud deployments.
+        <br/><br/>
+        
 ```json
 {
   "name": "Aniket Pitre",
@@ -33,11 +43,26 @@ I specialize in orchestrating *scalable cloud infrastructures* and highly availa
 * 📍 **Base Station**: Nashik, India (19.99° N, 73.78° E)
 * ⚡ **Core Pillars**: DevOps · SRE · Cloud Infrastructure · DevSecOps
 * 🎓 **Academics**: Pursuing Post-Graduate MCA (2024–2026) while shipping production clusters full-time
+        <br/>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
----
+<br/>
 
-### **Chapter II // Work Experience & Education**
-
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="left">CHAPTER II // EXPERIENCE &amp; ACADEMICS</th>
+      <th align="right">SYS.LOG // Nº 02</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <br/>
+        
 <details open>
   <summary>🚀 <b>Geeks Solutions Pvt. Ltd.</b> | <i>DevOps &amp; Security Engineer</i> &nbsp;&nbsp;<code>2024 — Present (Live)</code></summary>
   <br/>
@@ -100,29 +125,79 @@ I specialize in orchestrating *scalable cloud infrastructures* and highly availa
   * Programming, Database Management, Business Analytics.
   * **CGPA**: `8.95`
 </details>
+        <br/>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
----
+<br/>
 
-### **Chapter III // Constellation & Tech Stack**
-
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="left">CHAPTER III // CONSTELLATION &amp; TECH STACK</th>
+      <th align="right">CORE.STK // Nº 03</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <br/>
+        
 * **Orchestration & Containers**: Kubernetes (AKS, EKS), Docker, Helm
 * **CI/CD & GitOps**: ArgoCD, Azure DevOps Pipelines, GitHub Actions
 * **Observability**: Prometheus, Grafana, Alertmanager
 * **Databases & Middleware**: CloudNativePG (PostgreSQL), Kafka / AWS MSK, HAProxy, MaxScale, MongoDB
 * **Security & Auditing**: Nessus, Qualys, Trivy (SAST/DAST), Cryptography
 * **Testing & Scripting**: Python, Bash, k6 (Load Testing), Ollama / Genkit (AI/LLM tooling)
+        <br/>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
----
+<br/>
 
-### **Chapter IV // Credentials & Certifications**
-
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="left">CHAPTER IV // CREDENTIALS &amp; CERTIFICATIONS</th>
+      <th align="right">CERT.LOG // Nº 04</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <br/>
+        
 * 📜 **Professional Credentials**: 19+ certifications spanning cloud architectures, Kubernetes, systems administration, and network security.
 * 💼 **Specializations**: SRE patterns, vulnerability lifecycles, load validation, and container compliance.
+        <br/>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
----
+<br/>
 
-### **Chapter V // Honors & Publications**
-
-* **Best Outgoing Student Award (2026)** — MCA, K.K. Wagh Institute of Engineering Education & Research.
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="left">CHAPTER V // HONORS &amp; PUBLICATIONS</th>
+      <th align="right">HONOR.Nº.05</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <br/>
+        
+* **Best Outgoing Student Award (2026)** — MCA, K.K. Wagh Institute of Engineering Education &amp; Research.
 * **Best Paper Award (ICEISF 2025)** — For the publication *'Tokenizing Trees as Digital Assets: Exploring Blockchain for Sustainable Investment'* presented at the International Conference on Engineering Innovation for Sustainable Future.
-* **Best Team Award & Special Achievement Award (TCS)** — In recognition of contribution towards ensuring vulnerability compliance and infrastructure management.
+* **Best Team Award &amp; Special Achievement Award (TCS)** — In recognition of contribution towards ensuring vulnerability compliance and infrastructure management.
+        <br/>
+      </td>
+    </tr>
+  </tbody>
+</table>
