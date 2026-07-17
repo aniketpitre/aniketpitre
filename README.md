@@ -16,34 +16,34 @@
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/chapter1_v2.svg"/>
-  <img src="assets/chapter1_v2.svg" alt="Chapter I // Hello World" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/chapter1_v3.svg"/>
+  <img src="assets/chapter1_v3.svg" alt="Chapter I // Hello World" width="100%"/>
 </picture>
 
 <br/><br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/chapter2_v2.svg"/>
-  <img src="assets/chapter2_v2.svg" alt="Chapter II // Work Experience &amp; Academics" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/chapter2_v3.svg"/>
+  <img src="assets/chapter2_v3.svg" alt="Chapter II // Work Experience &amp; Academics" width="100%"/>
 </picture>
 
 <br/><br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/chapter3_v2.svg"/>
-  <img src="assets/chapter3_v2.svg" alt="Chapter III // Constellation &amp; Tech Stack" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/chapter3_v3.svg"/>
+  <img src="assets/chapter3_v3.svg" alt="Chapter III // Constellation &amp; Tech Stack" width="100%"/>
 </picture>
 
 <br/><br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/chapter4.svg"/>
-  <img src="assets/chapter4.svg" alt="Chapter IV // Credentials &amp; Certifications" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/chapter4_v3.svg"/>
+  <img src="assets/chapter4_v3.svg" alt="Chapter IV // Credentials &amp; Certifications" width="100%"/>
 </picture>
 
 <br/><br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/chapter5.svg"/>
-  <img src="assets/chapter5.svg" alt="Chapter V // Honors &amp; Publications" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/chapter5_v3.svg"/>
+  <img src="assets/chapter5_v3.svg" alt="Chapter V // Honors &amp; Publications" width="100%"/>
 </picture>
