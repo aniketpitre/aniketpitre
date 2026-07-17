@@ -1,11 +1,12 @@
-<svg viewBox="0 0 1000 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aniket Pitre — DevOps &amp; SRE Engineer">
+<svg viewBox="0 0 1000 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aniket Pitre — DevOps &amp; SRE HUD Terminal">
   <style>
     :root { 
       --bone: #0B0A09; 
       --rule: #E2DDD5; 
       --muted: #7E7870; 
       --dim: #9E978E; 
-      --accent: #D9663F; 
+      --accent: #D9663F;
+      --green: #22C55E;
     }
     .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
     .draw { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: draw 1.4s cubic-bezier(.6,0,.2,1) forwards; }
@@ -14,41 +15,76 @@
     @keyframes rise { from { opacity:0;transform:translateY(12px); } to { opacity:1;transform:translateY(0); } }
     .fade { opacity: 0; animation: fade .7s ease forwards; }
     @keyframes fade { to { opacity: 1; } }
-    .a1{animation-delay:.2s} .a2{animation-delay:.5s} .a3{animation-delay:.9s} .a4{animation-delay:1.2s} .a5{animation-delay:1.4s} .a6{animation-delay:1.7s}
+    
+    /* Timings */
+    .a1{animation-delay:.2s} .a2{animation-delay:.4s} .a3{animation-delay:.6s} .a4{animation-delay:.8s} .a5{animation-delay:1.1s} .a6{animation-delay:1.4s}
+    
+    /* Blinking & Pulsing */
+    .blink { animation: blinker 1.5s linear infinite; }
+    @keyframes blinker { 50% { opacity: 0.3; } }
+    
+    .pulse { animation: pulse-ring 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+    @keyframes pulse-ring { 0%, 100% { transform: scale(1); opacity: 0.8; } 50% { transform: scale(1.4); opacity: 0.2; } }
+    
+    .pipe-draw { stroke-dasharray: 800; stroke-dashoffset: 800; animation: pipe 2s cubic-bezier(.4,0,.2,1) forwards; animation-delay: 1s; }
+    @keyframes pipe { to { stroke-dashoffset: 0; } }
+
     @media (prefers-reduced-motion: reduce) {
-      .draw,.rise,.fade { animation: none; }
-      .draw{stroke-dashoffset:0} .rise,.fade{opacity:1}
+      .draw,.rise,.fade,.blink,.pulse,.pipe-draw { animation: none; }
+      .draw,.pipe-draw { stroke-dashoffset: 0; } .rise,.fade { opacity: 1; }
     }
   </style>
 
+  <!-- Top Coordinates Header -->
   <line class="draw a1" x1="48" y1="58" x2="952" y2="58" stroke="var(--rule)" stroke-width="1"/>
   <g class="fade a1">
-    <text class="mono" fill="var(--muted)" x="48" y="44" font-size="11" letter-spacing="3.5">DEVOPS · CLOUD · SRE — INDEX Nº 001</text>
-    <text class="mono" fill="var(--muted)" x="952" y="44" font-size="11" letter-spacing="3.5" text-anchor="end">NASHIK, IN — 19.99° N</text>
+    <text class="mono" fill="var(--muted)" x="48" y="44" font-size="11" letter-spacing="3">NASHIK // INK</text>
+    <text class="mono" fill="var(--muted)" x="952" y="44" font-size="11" letter-spacing="3" text-anchor="end">DEVOPS // SRE // KUBERNETES</text>
   </g>
 
+  <!-- Main Name Title -->
   <g class="rise a2">
-    <text fill="var(--bone)" class="mono" x="46" y="176" font-size="72" letter-spacing="-2">Aniket Pitre</text>
+    <text fill="var(--bone)" class="mono" x="46" y="146" font-size="64" letter-spacing="-2">Aniket Pitre</text>
   </g>
   <g class="fade a3">
-    <text fill="var(--muted)" class="mono" x="48" y="214" font-size="19">DevOps &amp; Security Engineer — Nashik, India.</text>
+    <text fill="var(--muted)" class="mono" x="48" y="184" font-size="18">DevOps &amp; Security Engineer — Nashik, India.</text>
   </g>
 
+  <!-- CI/CD Pipeline Section -->
   <g class="fade a4">
-    <text fill="var(--dim)" class="mono" x="48" y="274" font-size="12.5" letter-spacing="1">focus  ▸</text>
-    <text fill="var(--accent)" class="mono" x="128" y="274" font-size="12.5" letter-spacing="1">Kubernetes · GitOps · Cloud Security · Observability · SRE</text>
-  </g>
-  <g class="fade a5">
-    <text fill="var(--dim)" class="mono" x="48" y="300" font-size="12.5" letter-spacing="1">open to SRE roles · cloud migrations · performance engineering</text>
+    <!-- Connecting Pipeline Line -->
+    <path class="pipe-draw" d="M 180 250 L 820 250" stroke="var(--rule)" stroke-width="2" stroke-dasharray="8 6"/>
+    
+    <!-- Stage 1: COMMIT -->
+    <circle cx="180" cy="250" r="6" fill="var(--green)" />
+    <text class="mono" fill="var(--bone)" x="180" y="232" font-size="10.5" letter-spacing="0.5" text-anchor="middle">COMMIT</text>
+    <text class="mono" fill="var(--muted)" x="180" y="270" font-size="9" text-anchor="middle">git push primary</text>
+
+    <!-- Stage 2: BUILD -->
+    <circle cx="340" cy="250" r="6" fill="var(--green)" />
+    <text class="mono" fill="var(--bone)" x="340" y="232" font-size="10.5" letter-spacing="0.5" text-anchor="middle">BUILD</text>
+    <text class="mono" fill="var(--muted)" x="340" y="270" font-size="9" text-anchor="middle">docker build</text>
+
+    <!-- Stage 3: SEC SCAN -->
+    <circle cx="500" cy="250" r="6" fill="var(--green)" />
+    <text class="mono" fill="var(--bone)" x="500" y="232" font-size="10.5" letter-spacing="0.5" text-anchor="middle">SEC SCAN</text>
+    <text class="mono" fill="var(--muted)" x="500" y="270" font-size="9" text-anchor="middle">trivy scan</text>
+
+    <!-- Stage 4: TEST -->
+    <circle cx="660" cy="250" r="6" fill="var(--accent)" class="blink" />
+    <text class="mono" fill="var(--bone)" x="660" y="232" font-size="10.5" letter-spacing="0.5" text-anchor="middle">TEST</text>
+    <text class="mono" fill="var(--muted)" x="660" y="270" font-size="9" text-anchor="middle">jest integration</text>
+
+    <!-- Stage 5: CD SYNC -->
+    <circle cx="820" cy="250" r="6" fill="var(--dim)" />
+    <text class="mono" fill="var(--dim)" x="820" y="232" font-size="10.5" letter-spacing="0.5" text-anchor="middle">CD SYNC</text>
+    <text class="mono" fill="var(--muted)" x="820" y="270" font-size="9" text-anchor="middle">argocd rollout</text>
   </g>
 
+  <!-- Bottom Coordinates Footer -->
   <line class="draw a5" x1="48" y1="342" x2="952" y2="342" stroke="var(--rule)" stroke-width="1"/>
   <g class="fade a6">
-    <text fill="var(--muted)" class="mono" x="48" y="374" font-size="11.5" letter-spacing="3">KUBERNETES &amp; GITOPS</text>
-    <text fill="var(--accent)" class="mono" x="272" y="374" font-size="11.5">·</text>
-    <text fill="var(--muted)" class="mono" x="302" y="374" font-size="11.5" letter-spacing="3">CLOUD SECURITY</text>
-    <text fill="var(--accent)" class="mono" x="485" y="374" font-size="11.5">·</text>
-    <text fill="var(--muted)" class="mono" x="515" y="374" font-size="11.5" letter-spacing="3">PLATFORM OBSERVABILITY</text>
-    <text fill="var(--muted)" class="mono" x="952" y="374" font-size="11.5" letter-spacing="3" text-anchor="end">GEEKS SOLUTIONS — 2026.REL</text>
+    <text fill="var(--muted)" class="mono blink" x="48" y="374" font-size="11" letter-spacing="2.5">● SYS.ONLINE / TRANSMITTING...</text>
+    <text fill="var(--muted)" class="mono" x="952" y="374" font-size="11" letter-spacing="3" text-anchor="end">A.P // 2026.REL</text>
   </g>
 </svg>

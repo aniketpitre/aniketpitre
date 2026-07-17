@@ -15,18 +15,28 @@
 
 ---
 
-### ✦ ABOUT ME
+### **Chapter I // Hello World**
 
 I am a **DevOps & Security Engineer** specializing in orchestrating high-availability cloud infrastructure and secure payment platforms. My expertise spans Kubernetes administration, GitOps-driven continuous delivery, runtime observability, and enterprise systems hardening.
 
-* 📍 Based in Nashik, India
-* ⚡ SRE & Cloud Architect
-* 🛡️ Focused on PCI-DSS compliance, DevSecOps, and container security
-* 🎓 Pursuing Post-Graduate MCA (2024–2026) while shipping production clusters full-time
+```json
+{
+  "name": "Aniket Pitre",
+  "role": "DevOps Engineer",
+  "location": "Nashik, India",
+  "focus": ["Kubernetes", "GitOps", "Fintech"],
+  "stack": ["AKS", "ArgoCD", "Prometheus", "CloudNativePG"],
+  "status": "open_to_work"
+}
+```
+
+* 📍 **Base Station**: Nashik, India (19.99° N, 73.78° E)
+* ⚡ **Core Pillars**: DevOps · SRE · Cloud Infrastructure · DevSecOps
+* 🎓 **Academics**: Pursuing Post-Graduate MCA (2024–2026) while shipping production clusters full-time
 
 ---
 
-### ✦ WORK EXPERIENCE
+### **Chapter II // Work Experience**
 
 #### 🚀 **Geeks Solutions Pvt. Ltd.** | *DevOps & Security Engineer* 
 `2024 — Present` | `Full-Time` | `Nashik, India`
@@ -49,20 +59,18 @@ I am a **DevOps & Security Engineer** specializing in orchestrating high-availab
 
 ---
 
-### ✦ TECHNICAL TOOLCHAIN
+### **Chapter III // Constellation & Tech Stack**
 
-| Domain | Tools & Technologies |
-| :--- | :--- |
-| **Orchestration & Containers** | Kubernetes (AKS, EKS), Docker, Helm |
-| **CI/CD & GitOps** | ArgoCD, Azure DevOps Pipelines, GitHub Actions |
-| **Observability** | Prometheus, Grafana, Alertmanager |
-| **Databases & Middleware** | CloudNativePG (PostgreSQL), Kafka / AWS MSK, HAProxy, MaxScale, MongoDB |
-| **Security & Auditing** | Nessus, Qualys, Trivy (SAST/DAST), Cryptography |
-| **Testing & Scripting** | Python, Bash, k6 (Load Testing), Ollama / Genkit (AI/LLM tooling) |
+* **Orchestration & Containers**: Kubernetes (AKS, EKS), Docker, Helm
+* **CI/CD & GitOps**: ArgoCD, Azure DevOps Pipelines, GitHub Actions
+* **Observability**: Prometheus, Grafana, Alertmanager
+* **Databases & Middleware**: CloudNativePG (PostgreSQL), Kafka / AWS MSK, HAProxy, MaxScale, MongoDB
+* **Security & Auditing**: Nessus, Qualys, Trivy (SAST/DAST), Cryptography
+* **Testing & Scripting**: Python, Bash, k6 (Load Testing), Ollama / Genkit (AI/LLM tooling)
 
 ---
 
-### ✦ EDUCATION & CREDENTIALS
+### **Chapter IV // Education & Credentials**
 
 * 🎓 **Post-Graduate MCA** | *K. K. Wagh Institute of Engineering Education & Research* `2024 — 2026`
   * Focus: Advanced Data Structures, Network Security, AI/ML, Cloud Computing
@@ -73,7 +81,7 @@ I am a **DevOps & Security Engineer** specializing in orchestrating high-availab
 
 ---
 
-### ✦ HONORS & PUBLICATIONS
+### **Chapter V // Honors & Publications**
 
 * **Best Outgoing Student Award (2026)** — MCA, K.K. Wagh Institute of Engineering Education & Research.
 * **Best Paper Award (ICEISF 2025)** — For the publication *'Tokenizing Trees as Digital Assets: Exploring Blockchain for Sustainable Investment'* presented at the International Conference on Engineering Innovation for Sustainable Future.
