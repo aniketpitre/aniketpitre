@@ -1,0 +1,33 @@
+<svg viewBox="0 0 1000 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Footer — check the projects below">
+  <style>
+    :root { 
+      --bone: #0B0A09; 
+      --rule: #E2DDD5; 
+      --muted: #7E7870; 
+      --accent: #D9663F; 
+      --green: #22C55E;
+    }
+    .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .draw { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: draw 1.2s cubic-bezier(.6,0,.2,1) forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    .fade { opacity: 0; animation: fade .6s ease forwards; }
+    @keyframes fade { to { opacity: 1; } }
+    .blink { animation: blinker 1.2s steps(2, start) infinite; }
+    @keyframes blinker { to { visibility: hidden; } }
+    
+    .a1{animation-delay:.1s} .a2{animation-delay:.3s}
+    @media (prefers-reduced-motion: reduce) {
+      .draw,.fade,.blink { animation: none; }
+      .draw { stroke-dashoffset: 0; } .fade { opacity: 1; }
+    }
+  </style>
+
+  <!-- Top Divider Line -->
+  <line class="draw a1" x1="48" y1="20" x2="952" y2="20" stroke="var(--rule)" stroke-width="1"/>
+
+  <!-- Blinking Terminal Prompt -->
+  <g class="fade a2">
+    <text class="mono" fill="var(--muted)" x="48" y="55" font-size="13">aniket@ap-station:~$ <tspan fill="var(--bone)">cat projects_notice.json</tspan></text>
+    <text class="mono" fill="var(--accent)" x="48" y="85" font-size="14.5" font-weight="700">▸ inspect the pinned repositories below ↓<tspan fill="var(--bone)" class="blink">█</tspan></text>
+  </g>
+</svg>

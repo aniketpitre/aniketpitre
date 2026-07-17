@@ -47,3 +47,10 @@
   <source media="(prefers-color-scheme: dark)" srcset="assets/dark/chapter5_v3.svg"/>
   <img src="assets/chapter5_v3.svg" alt="Chapter V // Honors &amp; Publications" width="100%"/>
 </picture>
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/footer.svg"/>
+  <img src="assets/footer.svg" alt="check projects below" width="100%"/>
+</picture>
