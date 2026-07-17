@@ -13,21 +13,29 @@
 
 </div>
 
----
+<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/divider.svg"/>
+  <img src="assets/divider.svg" alt="divider" width="100%" height="1"/>
+</picture>
+<br/><br/>
 
 <table width="100%">
-  <thead>
-    <tr>
-      <th align="left">CHAPTER I // HELLO WORLD</th>
-      <th align="right">INDEX // Nº 01</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td colspan="2">
-        <br/>
-        I specialize in orchestrating <i>scalable cloud infrastructures</i> and highly available fintech payment systems. My focus is on automating continuous delivery, enhancing runtime observability, and securing enterprise cloud deployments.
-        <br/><br/>
+  <tr>
+    <td>
+      <table width="100%">
+        <tr>
+          <td align="left"><b>CHAPTER I // HELLO WORLD</b></td>
+          <td align="right"><code>INDEX // Nº 01</code></td>
+        </tr>
+      </table>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/dark/divider.svg"/>
+        <img src="assets/divider.svg" alt="divider" width="100%" height="1"/>
+      </picture>
+      <br/><br/>
+      I specialize in orchestrating <i>scalable cloud infrastructures</i> and highly available fintech payment systems. My focus is on automating continuous delivery, enhancing runtime observability, and securing enterprise cloud deployments.
+      <br/><br/>
         
 ```json
 {
@@ -43,25 +51,32 @@
 * 📍 **Base Station**: Nashik, India (19.99° N, 73.78° E)
 * ⚡ **Core Pillars**: DevOps · SRE · Cloud Infrastructure · DevSecOps
 * 🎓 **Academics**: Pursuing Post-Graduate MCA (2024–2026) while shipping production clusters full-time
-        <br/>
-      </td>
-    </tr>
-  </tbody>
+      <br/>
+    </td>
+  </tr>
 </table>
 
 <br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/divider.svg"/>
+  <img src="assets/divider.svg" alt="divider" width="100%" height="1"/>
+</picture>
+<br/><br/>
 
 <table width="100%">
-  <thead>
-    <tr>
-      <th align="left">CHAPTER II // EXPERIENCE &amp; ACADEMICS</th>
-      <th align="right">SYS.LOG // Nº 02</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td colspan="2">
-        <br/>
+  <tr>
+    <td>
+      <table width="100%">
+        <tr>
+          <td align="left"><b>CHAPTER II // EXPERIENCE &amp; ACADEMICS</b></td>
+          <td align="right"><code>SYS.LOG // Nº 02</code></td>
+        </tr>
+      </table>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/dark/divider.svg"/>
+        <img src="assets/divider.svg" alt="divider" width="100%" height="1"/>
+      </picture>
+      <br/><br/>
         
 <details open>
   <summary>🚀 <b>Geeks Solutions Pvt. Ltd.</b> | <i>DevOps &amp; Security Engineer</i> &nbsp;&nbsp;<code>2024 — Present (Live)</code></summary>
@@ -125,25 +140,32 @@
   * Programming, Database Management, Business Analytics.
   * **CGPA**: `8.95`
 </details>
-        <br/>
-      </td>
-    </tr>
-  </tbody>
+      <br/>
+    </td>
+  </tr>
 </table>
 
 <br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/divider.svg"/>
+  <img src="assets/divider.svg" alt="divider" width="100%" height="1"/>
+</picture>
+<br/><br/>
 
 <table width="100%">
-  <thead>
-    <tr>
-      <th align="left">CHAPTER III // CONSTELLATION &amp; TECH STACK</th>
-      <th align="right">CORE.STK // Nº 03</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td colspan="2">
-        <br/>
+  <tr>
+    <td>
+      <table width="100%">
+        <tr>
+          <td align="left"><b>CHAPTER III // CONSTELLATION &amp; TECH STACK</b></td>
+          <td align="right"><code>CORE.STK // Nº 03</code></td>
+        </tr>
+      </table>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/dark/divider.svg"/>
+        <img src="assets/divider.svg" alt="divider" width="100%" height="1"/>
+      </picture>
+      <br/><br/>
         
 * **Orchestration & Containers**: Kubernetes (AKS, EKS), Docker, Helm
 * **CI/CD & GitOps**: ArgoCD, Azure DevOps Pipelines, GitHub Actions
@@ -151,53 +173,66 @@
 * **Databases & Middleware**: CloudNativePG (PostgreSQL), Kafka / AWS MSK, HAProxy, MaxScale, MongoDB
 * **Security & Auditing**: Nessus, Qualys, Trivy (SAST/DAST), Cryptography
 * **Testing & Scripting**: Python, Bash, k6 (Load Testing), Ollama / Genkit (AI/LLM tooling)
-        <br/>
-      </td>
-    </tr>
-  </tbody>
+      <br/>
+    </td>
+  </tr>
 </table>
 
 <br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/divider.svg"/>
+  <img src="assets/divider.svg" alt="divider" width="100%" height="1"/>
+</picture>
+<br/><br/>
 
 <table width="100%">
-  <thead>
-    <tr>
-      <th align="left">CHAPTER IV // CREDENTIALS &amp; CERTIFICATIONS</th>
-      <th align="right">CERT.LOG // Nº 04</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td colspan="2">
-        <br/>
+  <tr>
+    <td>
+      <table width="100%">
+        <tr>
+          <td align="left"><b>CHAPTER IV // CREDENTIALS &amp; CERTIFICATIONS</b></td>
+          <td align="right"><code>CERT.LOG // Nº 04</code></td>
+        </tr>
+      </table>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/dark/divider.svg"/>
+        <img src="assets/divider.svg" alt="divider" width="100%" height="1"/>
+      </picture>
+      <br/><br/>
         
 * 📜 **Professional Credentials**: 19+ certifications spanning cloud architectures, Kubernetes, systems administration, and network security.
 * 💼 **Specializations**: SRE patterns, vulnerability lifecycles, load validation, and container compliance.
-        <br/>
-      </td>
-    </tr>
-  </tbody>
+      <br/>
+    </td>
+  </tr>
 </table>
 
 <br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/divider.svg"/>
+  <img src="assets/divider.svg" alt="divider" width="100%" height="1"/>
+</picture>
+<br/><br/>
 
 <table width="100%">
-  <thead>
-    <tr>
-      <th align="left">CHAPTER V // HONORS &amp; PUBLICATIONS</th>
-      <th align="right">HONOR.Nº.05</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td colspan="2">
-        <br/>
+  <tr>
+    <td>
+      <table width="100%">
+        <tr>
+          <td align="left"><b>CHAPTER V // HONORS &amp; PUBLICATIONS</b></td>
+          <td align="right"><code>HONOR.Nº // 05</code></td>
+        </tr>
+      </table>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/dark/divider.svg"/>
+        <img src="assets/divider.svg" alt="divider" width="100%" height="1"/>
+      </picture>
+      <br/><br/>
         
 * **Best Outgoing Student Award (2026)** — MCA, K.K. Wagh Institute of Engineering Education &amp; Research.
 * **Best Paper Award (ICEISF 2025)** — For the publication *'Tokenizing Trees as Digital Assets: Exploring Blockchain for Sustainable Investment'* presented at the International Conference on Engineering Innovation for Sustainable Future.
 * **Best Team Award &amp; Special Achievement Award (TCS)** — In recognition of contribution towards ensuring vulnerability compliance and infrastructure management.
-        <br/>
-      </td>
-    </tr>
-  </tbody>
+      <br/>
+    </td>
+  </tr>
 </table>
