@@ -51,7 +51,7 @@
 <br/><br/>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/216654128-ad1c5827-e18e-43a6-974b-3669cbb082b9.gif" width="120" alt="Multitasking DevOps Coder"/>
+  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="120" alt="GitHub Coder"/>
 </div>
 
 <br/><br/>
