@@ -44,7 +44,7 @@
   <g class="rise a3">
     <!-- Observability & Databases -->
     <text class="mono" fill="var(--accent)" x="520" y="90" font-size="12" font-weight="700" letter-spacing="1">DATABASES &amp; OBSERVABILITY</text>
-    <text class="mono" fill="var(--bone)" x="520" y="110" font-size="13">Prometheus · Grafana · CloudNativePG · Kafka · HAProxy · MongoDB</text>
+    <text class="mono" fill="var(--bone)" x="520" y="110" font-size="13">Prometheus · Grafana · CloudNativePG · Kafka · HAProxy · MariaDB Galera</text>
 
     <!-- Scripting & Security -->
     <text class="mono" fill="var(--accent)" x="520" y="160" font-size="12" font-weight="700" letter-spacing="1">SCRIPTING &amp; SECURITY</text>

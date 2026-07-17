@@ -68,8 +68,8 @@
 
     <!-- Academics -->
     <text class="mono" fill="var(--dim)" x="540" y="280" font-size="12">🎓 Academics</text>
-    <text class="mono" fill="var(--bone)" x="560" y="300" font-size="12">Pursuing Post-Graduate MCA (2024–2026)</text>
-    <text class="mono" fill="var(--bone)" x="560" y="318" font-size="12">while shipping production clusters full-time</text>
+    <text class="mono" fill="var(--bone)" x="560" y="300" font-size="12">Completed Post-Graduate MCA (2024–2026)</text>
+    <text class="mono" fill="var(--bone)" x="560" y="318" font-size="12">K. K. Wagh Institute of Engineering, Nashik</text>
   </g>
 
   <line class="draw a5" x1="48" y1="360" x2="952" y2="360" stroke="var(--rule)" stroke-width="1"/>
