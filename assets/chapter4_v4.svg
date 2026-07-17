@@ -1,0 +1,40 @@
+<svg viewBox="0 0 1000 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Chapter IV — Credentials &amp; Certifications">
+  <style>
+    :root { 
+      --bone: #0B0A09; 
+      --rule: #E2DDD5; 
+      --muted: #7E7870; 
+      --dim: #9E978E; 
+      --accent: #2EA44F; 
+    }
+    .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .draw { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: draw 1.2s cubic-bezier(.6,0,.2,1) forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    .rise { opacity: 0; animation: rise .8s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes rise { from { opacity:0;transform:translateY(10px); } to { opacity:1;transform:translateY(0); } }
+    .fade { opacity: 0; animation: fade .6s ease forwards; }
+    @keyframes fade { to { opacity: 1; } }
+    
+    .a1{animation-delay:.1s} .a2{animation-delay:.3s} .a3{animation-delay:.5s}
+    @media (prefers-reduced-motion: reduce) {
+      .draw,.rise,.fade { animation: none; }
+      .draw { stroke-dashoffset: 0; } .rise,.fade { opacity: 1; }
+    }
+  </style>
+
+  <!-- Panel Borders -->
+  <line class="draw a1" x1="48" y1="20" x2="952" y2="20" stroke="var(--rule)" stroke-width="1"/>
+  <g class="fade a1">
+    <text class="mono" fill="var(--bone)" x="48" y="42" font-size="13.5" font-weight="700" letter-spacing="2">CHAPTER IV // CREDENTIALS &amp; CERTIFICATIONS</text>
+    <text class="mono" fill="var(--muted)" x="952" y="42" font-size="12" letter-spacing="2" text-anchor="end">CERT.LOG // Nº 04</text>
+  </g>
+  <line class="draw a2" x1="48" y1="56" x2="952" y2="56" stroke="var(--rule)" stroke-width="1"/>
+
+  <!-- Content -->
+  <g class="rise a2">
+    <text class="mono" fill="var(--bone)" x="48" y="95" font-size="14">📜 Professional Credentials: 19+ certifications spanning cloud architectures, Kubernetes, and security operations.</text>
+    <text class="mono" fill="var(--bone)" x="48" y="125" font-size="14">💼 Specializations: SRE patterns, vulnerability assessment lifecycles, and PCI-DSS compliance frameworks.</text>
+  </g>
+
+  <line class="draw a3" x1="48" y1="170" x2="952" y2="170" stroke="var(--rule)" stroke-width="1"/>
+</svg>

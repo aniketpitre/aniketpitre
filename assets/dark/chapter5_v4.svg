@@ -1,0 +1,41 @@
+<svg viewBox="0 0 1000 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Chapter V — Honors &amp; Publications">
+  <style>
+    :root { 
+      --bone: #ECE6DA; 
+      --rule: #2C2B2A; 
+      --muted: #8C857B; 
+      --dim: #6B655D; 
+      --accent: #39D353; 
+    }
+    .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .draw { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: draw 1.2s cubic-bezier(.6,0,.2,1) forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    .rise { opacity: 0; animation: rise .8s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes rise { from { opacity:0;transform:translateY(10px); } to { opacity:1;transform:translateY(0); } }
+    .fade { opacity: 0; animation: fade .6s ease forwards; }
+    @keyframes fade { to { opacity: 1; } }
+    
+    .a1{animation-delay:.1s} .a2{animation-delay:.3s} .a3{animation-delay:.5s}
+    @media (prefers-reduced-motion: reduce) {
+      .draw,.rise,.fade { animation: none; }
+      .draw { stroke-dashoffset: 0; } .rise,.fade { opacity: 1; }
+    }
+  </style>
+
+  <!-- Panel Borders -->
+  <line class="draw a1" x1="48" y1="20" x2="952" y2="20" stroke="var(--rule)" stroke-width="1"/>
+  <g class="fade a1">
+    <text class="mono" fill="var(--bone)" x="48" y="42" font-size="13.5" font-weight="700" letter-spacing="2">CHAPTER V // HONORS &amp; PUBLICATIONS</text>
+    <text class="mono" fill="var(--muted)" x="952" y="42" font-size="12" letter-spacing="2" text-anchor="end">HONOR.LOG // Nº 05</text>
+  </g>
+  <line class="draw a2" x1="48" y1="56" x2="952" y2="56" stroke="var(--rule)" stroke-width="1"/>
+
+  <!-- Content -->
+  <g class="rise a2">
+    <text class="mono" fill="var(--bone)" x="48" y="90" font-size="13.5">★ <tspan fill="var(--accent)" font-weight="700">Best Outgoing Student Award (2026)</tspan> — MCA, K.K. Wagh Institute of Engineering, Nashik.</text>
+    <text class="mono" fill="var(--bone)" x="48" y="115" font-size="13.5">★ <tspan fill="var(--accent)" font-weight="700">Best Paper Award (ICEISF 2025)</tspan> — Publication: &quot;Tokenizing Trees as Digital Assets&quot; (Blockchain for ESG).</text>
+    <text class="mono" fill="var(--bone)" x="48" y="140" font-size="13.5">★ <tspan fill="var(--accent)" font-weight="700">TCS Awards (2022-2023)</tspan> — Received Best Team &amp; Special Achievement Awards for security patching compliance.</text>
+  </g>
+
+  <line class="draw a3" x1="48" y1="180" x2="952" y2="180" stroke="var(--rule)" stroke-width="1"/>
+</svg>
