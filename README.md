@@ -50,6 +50,12 @@
 
 <br/><br/>
 
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/216654128-ad1c5827-e18e-43a6-974b-3669cbb082b9.gif" width="120" alt="Multitasking DevOps Coder"/>
+</div>
+
+<br/><br/>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/dark/footer_v4.svg"/>
   <img src="assets/footer_v4.svg" alt="check projects below" width="100%"/>
