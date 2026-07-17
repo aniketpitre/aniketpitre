@@ -17,7 +17,7 @@
 
 ### **Chapter I // Hello World**
 
-I am a **DevOps & Security Engineer** specializing in orchestrating high-availability cloud infrastructure and secure payment platforms. My expertise spans Kubernetes administration, GitOps-driven continuous delivery, runtime observability, and enterprise systems hardening.
+I specialize in orchestrating *scalable cloud infrastructures* and highly available fintech payment systems. My focus is on automating continuous delivery, enhancing runtime observability, and securing enterprise cloud deployments.
 
 ```json
 {
@@ -36,26 +36,70 @@ I am a **DevOps & Security Engineer** specializing in orchestrating high-availab
 
 ---
 
-### **Chapter II // Work Experience**
+### **Chapter II // Work Experience & Education**
 
-#### 🚀 **Geeks Solutions Pvt. Ltd.** | *DevOps & Security Engineer* 
-`2024 — Present` | `Full-Time` | `Nashik, India`
-* **Kubernetes (Azure AKS)**: Managed production clusters hosting fintech and payment systems with a strong emphasis on high availability and zero-downtime deployments.
-* **GitOps & Automation**: Automated application delivery using **ArgoCD**, Helm, and secure pipeline policies.
-* **Observability**: Built monitoring stacks using **Prometheus**, Grafana, and Alertmanager (kube-prometheus-stack).
-* **Database Operations**: Deployed Postgres clusters using **CloudNativePG (CNPG)**, MongoDB, and replicated MySQL/MariaDB with MaxScale.
-* **Cloud & Networking**: Handled AWS migrations, HAProxy traffic routing, and load testing via **k6**.
+<details open>
+  <summary>🚀 <b>Geeks Solutions Pvt. Ltd.</b> | <i>DevOps &amp; Security Engineer</i> &nbsp;&nbsp;<code>2024 — Present (Live)</code></summary>
+  <br/>
+  
+  * Managing production Kubernetes clusters (Azure AKS) for *scalable and resilient payment platforms*.
+  * Implementing secure GitOps deployments using *ArgoCD, Helm, and policy gates*.
+  * Designing and maintaining CI/CD pipelines with *integrated security scanning (SAST/DAST)* in Azure DevOps.
+  * Integrating AI/LLM tooling (*Ollama, Genkit*) into dev environments and testing automation.
+  * Deploying PostgreSQL clusters using *CloudNativePG (CNPG)*, MongoDB, and replicated MySQL/MariaDB with MaxScale.
+  * Building observability stacks using *Prometheus, Grafana, and Alertmanager* for monitoring and incident response.
+  * Implementing secure infrastructure aligned with *PCI-DSS compliance* requirements.
 
-#### 🛡️ **Tata Consultancy Services** | *System Administrator (Vulnerability & Security Operations)*
-`Aug 2022 — 2023` | `Full-Time` | `India`
-* Conducted vulnerability assessment lifecycles across Linux (RHEL/CentOS) and Windows servers using **Nessus** and **Qualys**.
-* Structured patching schedules based on CVSS scoring to maintain strict enterprise compliance.
-* Honored with the **TCS Special Achievement Award** and **Best Team Award** for operational security excellence.
+  > **Tech Stack:** `Azure AKS` `ArgoCD` `Helm` `Docker` `Kafka` `PostgreSQL` `CNPG` `HAProxy` `Prometheus` `Grafana` `k6` `PCI-DSS` `AWS`
+</details>
 
-#### 💻 **CODTECH IT Solutions** | *Cybersecurity Intern*
-`Jan 2025` | `Remote`
-* Developed Python-based security scripts, including cryptography libraries and file integrity monitors.
-* Conducted simulated penetration tests and designed a prototype ransomware detection system with auto-quarantine.
+<br/>
+
+<details>
+  <summary>🛡️ <b>Tata Consultancy Services</b> | <i>System Administrator</i> &nbsp;&nbsp;<code>Aug 2022 — 2023 (Prior)</code></summary>
+  <br/>
+
+  * Secured TCS enterprise assets as part of the *Vulnerability Security Operations* team, guaranteeing security compliance.
+  * Conducted regular vulnerability scans on Linux (RHEL, CentOS) and Windows servers using *Nessus* and *Qualys*.
+  * Managed and implemented security patching cycles, prioritizing vulnerabilities by *CVSS scores* and business impact.
+  * Audited configurations and maintained internal security standards to ensure compliance.
+
+  > **Tech Stack:** `Linux` `Nessus` `Qualys` `CVSS` `Windows Server` `Security Hardening` `Vulnerability Management`
+</details>
+
+<br/>
+
+<details>
+  <summary>💻 <b>CODTECH IT Solutions</b> | <i>Cybersecurity Intern</i> &nbsp;&nbsp;<code>Jan 2025 (Prior)</code></summary>
+  <br/>
+
+  * Developed Python-based security tools including *encryption utilities and file integrity monitors*.
+  * Conducted simulated penetration tests on internal lab environments.
+  * Built a *ransomware detection system* with auto-backup and quarantine features.
+
+  > **Tech Stack:** `Python` `Ethical Hacking` `Penetration Testing` `Cryptography`
+</details>
+
+<br/>
+
+<details>
+  <summary>🎓 <b>Post-Graduate MCA</b> | <i>K. K. Wagh Institute (Nashik)</i> &nbsp;&nbsp;<code>2024 — 2026</code></summary>
+  <br/>
+
+  * Advanced Data Structures, AI &amp; Machine Learning, Network Security, Cloud Computing.
+  * Honored with the **Best Outgoing Student Award** from the institute for outstanding academic and extracurricular performance.
+  * **CGPA**: `8.0`
+</details>
+
+<br/>
+
+<details>
+  <summary>🎓 <b>BBA-CA</b> | <i>B.Y.K. College of Commerce (Nashik)</i> &nbsp;&nbsp;<code>2019 — 2022</code></summary>
+  <br/>
+
+  * Programming, Database Management, Business Analytics.
+  * **CGPA**: `8.95`
+</details>
 
 ---
 
@@ -70,14 +114,10 @@ I am a **DevOps & Security Engineer** specializing in orchestrating high-availab
 
 ---
 
-### **Chapter IV // Education & Credentials**
+### **Chapter IV // Credentials & Certifications**
 
-* 🎓 **Post-Graduate MCA** | *K. K. Wagh Institute of Engineering Education & Research* `2024 — 2026`
-  * Focus: Advanced Data Structures, Network Security, AI/ML, Cloud Computing
-  * Awarded the **Best Outgoing Student Award** from the institute.
-* 🎓 **BBA-CA** | *B.Y.K. College of Commerce* `2019 — 2022`
-  * CGPA: 8.95
-* 📜 **Certifications**: 19+ professional certifications spanning cloud architectures, Kubernetes, and network security.
+* 📜 **Professional Credentials**: 19+ certifications spanning cloud architectures, Kubernetes, systems administration, and network security.
+* 💼 **Specializations**: SRE patterns, vulnerability lifecycles, load validation, and container compliance.
 
 ---
 
